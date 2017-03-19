@@ -1,0 +1,80 @@
+/* Web site */
+
+body {
+  font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+  font-size: 12;
+  color: #a73b8f;
+  background: #fff;
+  overflow: hidden;
+  margin: 10px;
+}
+
+::selection {
+  background: #a93790;
+  color: #fff;
+}
+
+h1 {
+  color: #3c1357;
+}
+
+.lead {
+  color: #61208d;
+}
+
+p {
+  color: #a73b8f;
+}
+
+.btn-default {
+  color: #e8638b;
+  background-color: #fff;
+  border-color: #e8638b;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.btn-default:active:hover,
+.btn-default.active:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus {
+  color: #fff;
+  background-color: #e8638b;
+  border-color: #e8638b;
+}
+
+a,
+.btn-link {
+  color: #f4aea3;
+}
+
+a:hover,
+a:focus,
+a:active,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  color: #a73b8f;
+  text-decoration: underline;
+}
+
+.grid-canvas {
+  background: #888;
+  float: left;
+}
+
+.options-area {
+  margin-left: 10px;
+  float: left;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  color: #f4aea3;
+}
